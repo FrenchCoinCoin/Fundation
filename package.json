@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple tailwind starter project with parcel",
   "scripts": {
-    "dev": "npx parcel src/html/index.njk",
+    "dev": "npx parcel src/html/index.njk --no-cache",
     "prod": "npx parcel build src/html/index.njk"
   },
   "repository": "https://github.com/SantiMA10/tailwindcss-parcel-starter.git",
