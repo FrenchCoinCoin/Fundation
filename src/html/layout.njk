@@ -1,26 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Tailwind Starter Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="../assets/css/styles.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
-  </head>
-  <body class="font-body">
-    {# Barre de navigation  #}
-    <header class="bg-rose-header">
-    {% include "./partials/header.njk" %}
-    </header>
-    {# MAIN #}
-    <main class="">
-      {% block content %}
-      Pas de contenu
-      {% endblock %}
-    </main>
-    {# FOOTER #}
-    <footer class="">
 
-    </footer>
-  </body>
+<head>
+  <title>Tailwind Starter Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="../assets/css/styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+</head>
+
+<body class="font-body">
+  {# Barre de navigation  #}
+  <header class="bg-rose-header">
+    {% include "./partials/header.njk" %}
+  </header>
+  {# MAIN #}
+  <main class="">
+    {% block content %}
+    Pas de contenu
+    {% endblock %}
+  </main>
+  {# FOOTER #}
+  <footer class="">
+    {% include "./partials/footer.njk" %}
+  </footer>
+</body>
+
 </html>

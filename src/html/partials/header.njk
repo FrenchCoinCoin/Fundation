@@ -1,6 +1,7 @@
-<div id="header__top" class="px-4 sm:px-0 sm:pt-12 bg-white sm:w-full sm:bg-transparent sm:mx-auto sm:max-w-container flex justify-between mb-8 sm:mb-20">
+<div id="header__top"
+    class="px-4 sm:px-0 sm:pt-12 bg-white sm:w-full sm:bg-transparent sm:mx-auto sm:max-w-container flex justify-between mb-8 sm:mb-20">
     <div id="header__top__left" class="flex">
-        <div id="logo" class="bg-blue-500 w-12 h-12 mr-4 sm:bg-white sm:w-16 sm:h-16">
+        <div id="logo" class="bg-blue-500 rounded shadow-outline w-12 h-12 mr-4 sm:bg-white sm:w-16 sm:h-16">
             <img src="" alt="">
         </div>
         <div id="name" class="flex justify-center flex-col">
@@ -16,7 +17,8 @@
                 <option value="">Library</option>
             </select>
         </div>
-        <button class="hidden sm:block w-40 h-12 rounded bg-blue-btn text-white font-bold">Get Started</button>
+        <button class="hidden sm:block w-40 h-12 rounded shadow-outline bg-blue-btn text-white font-bold">Get
+            Started</button>
     </div>
 </div>
 <div id="header__bottom" class="sm:flex px-4 sm:px-0 sm:mx-auto sm:max-w-container pb-8 sm:pb-12">
@@ -25,17 +27,19 @@
             <p class="text-5xl sm:text-xxl leading-none text-text-black font-bold mb-6 sm:mb-8">
                 Build stunning websites & apps.
             </p>
-            <p class="text-2xl sm:mb-16 leading-snug mb-8 sm:w-header-h-img">Create live segments and target the right people for
+            <p class="text-2xl sm:mb-16 leading-snug mb-8 sm:w-header-h-img">Create live segments and target the right
+                people for
                 messages based on their behaviors.</p>
         </div>
         <div class=>
-            <button class="w-full mb-6 sm:mb-0 sm:w-40 h-12 rounded bg-blue-btn text-white font-bold">Get
-                Started</button>
-            <button class="w-full mb-8 sm:mb-0 sm:w-40 h-12 rounded bg-white text-blue-btn font-bold">Learn
+            {% include "../components/btnblue.njk" %}
+            <button
+                class="w-full mb-8 sm:mb-0 sm:w-40 h-12 rounded shadow-outline bg-white text-blue-btn font-bold">Learn
                 More</button>
         </div>
     </div>
-    <div id="header__bottom__right" class="bg-black sm:bg-white w-full h-32 sm:w-header-w-img sm:h-header-h-img">
+    <div id="header__bottom__right"
+        class="bg-black shadow-outline sm:bg-white w-full h-32 sm:w-header-w-img sm:h-header-h-img">
         <img src="" alt="">
     </div>
 </div>

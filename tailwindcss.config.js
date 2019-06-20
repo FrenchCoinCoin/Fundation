@@ -12,6 +12,7 @@ module.exports = {
         'text-black':'#2b292d',
         'green-block3':'#009b4d',
         'red-block4':'#f1592b',
+        'blue-block5':'#0189d1',
       },
       spacing: {
         'container':'1200px',
