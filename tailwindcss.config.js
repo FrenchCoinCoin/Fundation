@@ -13,6 +13,7 @@ module.exports = {
         'green-block3':'#009b4d',
         'red-block4':'#f1592b',
         'blue-block5':'#0189d1',
+        'blue-block6':'#00a1c6',
       },
       spacing: {
         'container':'1200px',
