@@ -4,6 +4,14 @@ module.exports = {
        'display': ['"Work Sans"'],
        'body': ['"Work Sans"'],
           },
+          fill: {
+                current: 'currentColor',
+               },
+               fill: theme => ({
+                 'red': theme('colors.red.500'),
+                 'green': theme('colors.green.500'),
+                 'blue': theme('colors.blue-btn'),
+                 }),
     extend: {
       colors: {
         'rose-header': '#f3c6bd',
@@ -23,6 +31,8 @@ module.exports = {
         'header-w-img':'1500px',
         'header-h-img':'448px',
         'bloc-1':'255px',
+        'block-3-w':'700px',
+        'block-3-h':'600px',
         'xxl':'80px',
         '72':"288px",
         "80":"320px",
