@@ -12,6 +12,11 @@ module.exports = {
                  'green': theme('colors.green.500'),
                  'blue': theme('colors.blue-btn'),
                  }),
+    inset: {
+        '0': 0,
+        auto: 'auto',
+        '1/2': '50%',
+                },
     extend: {
       colors: {
         'rose-header': '#f3c6bd',
@@ -21,7 +26,8 @@ module.exports = {
         'green-block3':'#009b4d',
         'red-block4':'#f1592b',
         'blue-block5':'#0189d1',
-        'blue-block6':'#00a1c6',
+        'blue-block6':'#c1e8f1',
+        'blue-card':'#3141c5'
       },
       spacing: {
         'container':'1200px',
@@ -33,6 +39,7 @@ module.exports = {
         'bloc-1':'255px',
         'block-3-w':'700px',
         'block-3-h':'600px',
+        'block-8-w':'755px',
         'xxl':'80px',
         '72':"288px",
         "80":"320px",
