@@ -21,13 +21,13 @@ module.exports = {
       colors: {
         'rose-header': '#f3c6bd',
         'blue-btn':'#3040c4',
-        'gray-bloc-1':'#f4f5f7',
+        'gray-block1':'#f4f5f7',
         'text-black':'#2b292d',
         'green-block3':'#009b4d',
         'red-block4':'#f1592b',
         'blue-block5':'#0189d1',
         'blue-block6':'#c1e8f1',
-        'blue-card':'#3141c5'
+        'blue-card':'#3141c5',
       },
       spacing: {
         'container':'1200px',
